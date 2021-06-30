@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://art/fondo.jpg" type="Texture" id=2]
+
+[node name="Node" type="Node"]
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+margin_left = 0.366943
+margin_top = -20.4518
+margin_right = 381.367
+margin_bottom = 256.548
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1.68182, 1.68176 )
